@@ -51,6 +51,7 @@ ul {
 .header-left-items,
 .header-right-items {
   display: flex;
+  gap: 16px;
 }
 
 .header {
@@ -60,14 +61,8 @@ ul {
   padding: 8px;
 }
 
-.notifications {
-  margin-left: auto;
-}
-
 .links {
-  padding: 0;
-}
-
-ul {
   display: flex;
+  padding: 0;
+  gap: 16px;
 }
