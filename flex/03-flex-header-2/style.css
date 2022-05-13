@@ -48,8 +48,14 @@ ul {
 }
 
 /* SOLUTION BEGIN */
+.header-left-items,
+.header-right-items {
+  display: flex;
+}
+
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 8px;
 }
