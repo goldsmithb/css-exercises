@@ -46,3 +46,12 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* SOLUTION BEGIN */
+.header {
+  display: flex;
+}
+
+.notifications {
+  margin-left: auto;
+}
