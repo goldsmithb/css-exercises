@@ -50,8 +50,17 @@ ul {
 /* SOLUTION BEGIN */
 .header {
   display: flex;
+  align-items: center;
 }
 
 .notifications {
   margin-left: auto;
+}
+
+.links {
+  padding: 0;
+}
+
+ul {
+  display: flex;
 }
