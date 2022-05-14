@@ -25,3 +25,10 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* SOLUTION BEGIN */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
