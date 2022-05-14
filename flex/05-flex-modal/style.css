@@ -90,3 +90,13 @@ button.cancel {
   flex-direction: column;
   gap: 8px;
 }
+
+/* FEEDBACK
+based on reading the solution posted by odin on github,
+a better way to organize the content in the modal would be 
+to use just one extra flex-container to set apart the content
+and the !-icon. Then nest the X-button inside the header div and
+do the alignment in that div (justify-content: space between would work).
+Also, instead of using that second container as another flex container
+(but set to flex-direction: column), just allow it tobe a regular
+div with display: block and fix the spacing with the margin property.*/
