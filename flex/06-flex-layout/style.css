@@ -50,11 +50,22 @@ a {
 }
 
 .header,
-.footer {
+.footer,
+.content {
   display: flex;
+}
+
+.header,
+.footer {
   justify-content: space-between;
 }
 
 .footer {
   background-color: #eee;
+}
+
+.content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
