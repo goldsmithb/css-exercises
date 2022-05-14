@@ -33,7 +33,7 @@ img {
 }
 
 .flex-item {
-  width: 200px;
+  max-width: 200px;
 }
 
 .text,
