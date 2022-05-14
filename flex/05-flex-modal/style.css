@@ -74,7 +74,7 @@ button.cancel {
 }
 
 .icon {
-  flex: none; /* do I want it to grow tho?*/
+  flex-shrink: 0; /* do I want it to grow tho?*/
 }
 
 .modal-title {
