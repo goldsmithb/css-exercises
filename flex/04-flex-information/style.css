@@ -40,13 +40,7 @@ body {
   text-align: center;
 }
 
-.title,
-.flex-container {
+.title {
   margin: 32px;
 }
 
-.flex-item img {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
